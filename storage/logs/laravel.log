@@ -1,0 +1,28 @@
+[2023-09-15 11:39:31] local.ERROR: No arguments expected for "serve" command, got "1". {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): No arguments expected for \"serve\" command, got \"1\". at /home/abdullah/Learning/vendor/symfony/console/Input/ArgvInput.php:196)
+[stacktrace]
+#0 /home/abdullah/Learning/vendor/symfony/console/Input/ArgvInput.php(89): Symfony\\Component\\Console\\Input\\ArgvInput->parseArgument()
+#1 /home/abdullah/Learning/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#2 /home/abdullah/Learning/vendor/symfony/console/Input/Input.php(55): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#3 /home/abdullah/Learning/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#4 /home/abdullah/Learning/vendor/laravel/framework/src/Illuminate/Console/Command.php(181): Symfony\\Component\\Console\\Command\\Command->run()
+#5 /home/abdullah/Learning/vendor/symfony/console/Application.php(1081): Illuminate\\Console\\Command->run()
+#6 /home/abdullah/Learning/vendor/symfony/console/Application.php(320): Symfony\\Component\\Console\\Application->doRunCommand()
+#7 /home/abdullah/Learning/vendor/symfony/console/Application.php(174): Symfony\\Component\\Console\\Application->doRun()
+#8 /home/abdullah/Learning/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#9 /home/abdullah/Learning/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#10 {main}
+"} 
+[2023-09-15 11:39:38] local.ERROR: No arguments expected for "serve" command, got "google11.com". {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): No arguments expected for \"serve\" command, got \"google11.com\". at /home/abdullah/Learning/vendor/symfony/console/Input/ArgvInput.php:196)
+[stacktrace]
+#0 /home/abdullah/Learning/vendor/symfony/console/Input/ArgvInput.php(89): Symfony\\Component\\Console\\Input\\ArgvInput->parseArgument()
+#1 /home/abdullah/Learning/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#2 /home/abdullah/Learning/vendor/symfony/console/Input/Input.php(55): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#3 /home/abdullah/Learning/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#4 /home/abdullah/Learning/vendor/laravel/framework/src/Illuminate/Console/Command.php(181): Symfony\\Component\\Console\\Command\\Command->run()
+#5 /home/abdullah/Learning/vendor/symfony/console/Application.php(1081): Illuminate\\Console\\Command->run()
+#6 /home/abdullah/Learning/vendor/symfony/console/Application.php(320): Symfony\\Component\\Console\\Application->doRunCommand()
+#7 /home/abdullah/Learning/vendor/symfony/console/Application.php(174): Symfony\\Component\\Console\\Application->doRun()
+#8 /home/abdullah/Learning/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#9 /home/abdullah/Learning/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#10 {main}
+"} 
